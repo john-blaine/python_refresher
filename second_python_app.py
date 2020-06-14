@@ -8,3 +8,11 @@ print(t[0])
 l[0] = '6'
 print(l)
 
+l.append('4')
+
+print(l)
+
+l.remove('6')
+print(l)
+
+
