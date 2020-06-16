@@ -7,3 +7,14 @@ coworkers = [( 'Eric', 32, 'Tech Lead' ), ( 'Tim', 38, 'Tech Lead' ), ( 'Ryan', 
 
 for name, age, profession in coworkers:
   print(f'Name: {name}, Age: {age}, Profession: {profession}')
+
+
+head, *tail = [1, 2, 3, 4,  5]
+
+print(head)
+print(tail)
+
+*head, tail = [1, 2, 3, 4, 5]
+
+print(head)
+print(tail)
